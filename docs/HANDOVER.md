@@ -1,5 +1,11 @@
 # 704 掃碼 Pro 交接
 
+## 2026-10-15 建立 GitHub 版本庫
+
+- 已將此 Unity 專案初始化為 Git repo，遠端 `origin` 指向 `https://github.com/momocube/704_ScanPro.git`；`main` 已推送並追蹤 `origin/main`。
+- Unity 資產、套件、專案設定、工具與文件已納入版本控制。Builds、Library、Logs、TestResults、UserSettings 依 `.gitignore` 排除。
+- 本次只建立版本控制並上傳現況；未執行 Unity Build、自動檢查或實體設備／場域驗收。
+
 ## 2026-10-13 Build 畫面變形修正
 
 - `VenueOutputPresenter.OnRenderImage` 原本在 destination 為 null 時使用主後台的 `Screen.width/height`，讓第二顯示器套用錯誤比例。現在使用該相機本次影格尺寸；明確 RenderTexture 輸出仍採目的紋理尺寸。新增 `SCANPRO_PRESENTATION` 尺寸變動 log，供現場核對 display／frame／operator／source。
