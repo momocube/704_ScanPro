@@ -1,0 +1,4191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea21acef611a6e47b46238eccec79ed, type: 3}
+  m_Name: Imported_1-2 (250ms)
+  m_EditorClassIdentifier: 
+  levelNumber: 2
+  displayName: 1-2 (250ms)
+  venue: {fileID: 11400000, guid: c39084d628949294a96f488dba191f9f, type: 2}
+  timeLimitSeconds: 60
+  initialHearts: 15
+  movementSegmentMs: 1500
+  animationSpeedMilliseconds: 250
+  importedPackageName: 1-2 (250ms).zip
+  importedAtLocal: 2026-10-12 09:16:11 (Asia/Taipei)
+  importSummary: "\u8F49\u63DB\u5B8C\u6210\uFF1A\u89F8\u6478\u6578\u5B57\uFF0F\u7B97\u5F0F
+    10\u3001\u6383\u78BC QR 8\u3001\u5B89\u5168\u5340 1\u3001\u5371\u96AA\u5340 2\u3001\u7D2B\u8272\u6A5F\u95DC
+    0\u3001\u6DFA\u85CD\u6A5F\u95DC 0\uFF1B\u5168\u95DC\u5171\u7528\u5F71\u683C\u901F\u5EA6
+    250 ms\u3002"
+  importWarnings: "\u85CD\u8272\uFF5C\u6383\u78BC (10,35) \u7B2C 1 \u5F71\u683C\u6709\u6548\u5340\u57DF
+    2\xD72 \u683C\uFF1AQR \u81F3\u5C11 4\xD74 \u683C\uFF0C\u624D\u80FD\u5728 520\xD7420
+    \u532F\u51FA\u5716\u4FDD\u7559\u5B8C\u6574\u6A21\u7D44\uFF1B\u4E0D\u6703\u81EA\u52D5\u653E\u5927\u85CD\u683C\u3002\n\u85CD\u8272\uFF5C\u6383\u78BC
+    (10,38) \u7B2C 1 \u5F71\u683C\u6709\u6548\u5340\u57DF 2\xD72 \u683C\uFF1AQR \u81F3\u5C11
+    4\xD74 \u683C\uFF0C\u624D\u80FD\u5728 520\xD7420 \u532F\u51FA\u5716\u4FDD\u7559\u5B8C\u6574\u6A21\u7D44\uFF1B\u4E0D\u6703\u81EA\u52D5\u653E\u5927\u85CD\u683C\u3002\n\u85CD\u8272\uFF5C\u6383\u78BC
+    (26,35) \u7B2C 1 \u5F71\u683C\u6709\u6548\u5340\u57DF 2\xD72 \u683C\uFF1AQR \u81F3\u5C11
+    4\xD74 \u683C\uFF0C\u624D\u80FD\u5728 520\xD7420 \u532F\u51FA\u5716\u4FDD\u7559\u5B8C\u6574\u6A21\u7D44\uFF1B\u4E0D\u6703\u81EA\u52D5\u653E\u5927\u85CD\u683C\u3002\n\u85CD\u8272\uFF5C\u6383\u78BC
+    (26,38) \u7B2C 1 \u5F71\u683C\u6709\u6548\u5340\u57DF 2\xD72 \u683C\uFF1AQR \u81F3\u5C11
+    4\xD74 \u683C\uFF0C\u624D\u80FD\u5728 520\xD7420 \u532F\u51FA\u5716\u4FDD\u7559\u5B8C\u6574\u6A21\u7D44\uFF1B\u4E0D\u6703\u81EA\u52D5\u653E\u5927\u85CD\u683C\u3002\n\u85CD\u8272\uFF5C\u6383\u78BC
+    (5,10) \u7B2C 1 \u5F71\u683C\u6709\u6548\u5340\u57DF 2\xD72 \u683C\uFF1AQR \u81F3\u5C11
+    4\xD74 \u683C\uFF0C\u624D\u80FD\u5728 520\xD7420 \u532F\u51FA\u5716\u4FDD\u7559\u5B8C\u6574\u6A21\u7D44\uFF1B\u4E0D\u6703\u81EA\u52D5\u653E\u5927\u85CD\u683C\u3002\n\u85CD\u8272\uFF5C\u6383\u78BC
+    (45,10) \u7B2C 1 \u5F71\u683C\u6709\u6548\u5340\u57DF 2\xD72 \u683C\uFF1AQR \u81F3\u5C11
+    4\xD74 \u683C\uFF0C\u624D\u80FD\u5728 520\xD7420 \u532F\u51FA\u5716\u4FDD\u7559\u5B8C\u6574\u6A21\u7D44\uFF1B\u4E0D\u6703\u81EA\u52D5\u653E\u5927\u85CD\u683C\u3002\n\u85CD\u8272\uFF5C\u6383\u78BC
+    (10,2) \u7B2C 1 \u5F71\u683C\u6709\u6548\u5340\u57DF 2\xD72 \u683C\uFF1AQR \u81F3\u5C11
+    4\xD74 \u683C\uFF0C\u624D\u80FD\u5728 520\xD7420 \u532F\u51FA\u5716\u4FDD\u7559\u5B8C\u6574\u6A21\u7D44\uFF1B\u4E0D\u6703\u81EA\u52D5\u653E\u5927\u85CD\u683C\u3002\n\u85CD\u8272\uFF5C\u6383\u78BC
+    (10,6) \u7B2C 1 \u5F71\u683C\u6709\u6548\u5340\u57DF 2\xD72 \u683C\uFF1AQR \u81F3\u5C11
+    4\xD74 \u683C\uFF0C\u624D\u80FD\u5728 520\xD7420 \u532F\u51FA\u5716\u4FDD\u7559\u5B8C\u6574\u6A21\u7D44\uFF1B\u4E0D\u6703\u81EA\u52D5\u653E\u5927\u85CD\u683C\u3002"
+  timingFramesPerSecond: 60
+  proMechanic: 0
+  purpleHoldSeconds: 0.1
+  switchQuietIntervalMs: 500
+  mirrorPainting: 0
+  symmetryAxisX: 26
+  mirrorAcrossHorizontalAxis: 0
+  symmetryAxisY: 21
+  newTouchContentMode: 0
+  autoTouchStyle: 0
+  autoNumberOrder: 0
+  autoAnswerMinimum: 1
+  autoAnswerMaximum: 7
+  arithmeticOperandMinimum: 1
+  arithmeticOperandMaximum: 20
+  orderedTouchMode: 0
+  layerOrder: 0000000003000000020000000100000004000000
+  items:
+  - id: zip_FBB7B5BF4CA348EE_00
+    kind: 2
+    shape: 0
+    position: {x: 19, y: 20}
+    size: {x: 14, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 14
+      height: 2
+      packedPixels: ////Dw==
+  - id: zip_594CFD2607D4F09E_00
+    kind: 3
+    shape: 0
+    position: {x: 0, y: 0}
+    size: {x: 52, y: 42}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: import:frames:region:00
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 52
+      height: 42
+      packedPixels: AHwAPgAAAMAH4AMAAAB8AD4AAADAB+ADAAAAfAA+AAAAwAfgAwAAAHwAPgAAAMAH4AMAAAB8AD4AAADAB+ADAAD///////////////////////////8BAAD4//8fAACA////AQAA+P//HwAAgP8PwAEAADgAABwAAIADAMABAAA4AAAcAACAAwDAAQAAOAAAHAAAgAMAwAEAADgAABwAAIAD8P8BAAD4//8fAACA////AQAA+P//HwAAgP///////////////////////////wB8wD/gAwDAB/wDPgAAfMA/4AMAwAf8Az4AAHzAP+ADAMAH/AM+AAB8wD/gAwDAB/wDPgAAfMA/4AMAwAf8Az4A
+  - id: zip_594CFD2607D4F09E_01
+    kind: 3
+    shape: 0
+    position: {x: 16, y: 16}
+    size: {x: 20, y: 10}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: import:frames:region:01
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 20
+      height: 10
+      packedPixels: /////////////////////////////////w==
+  - id: zip_A5C5EE7BCE0641C8_00
+    kind: 0
+    shape: 0
+    position: {x: 13, y: 13}
+    size: {x: 26, y: 16}
+    label: 1
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+  - id: zip_01FAC95AE0F50C79_00
+    kind: 0
+    shape: 0
+    position: {x: 13, y: 13}
+    size: {x: 26, y: 16}
+    label: 2
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 22, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+  - id: zip_6FB2EFD0064FCF11_00
+    kind: 0
+    shape: 0
+    position: {x: 13, y: 13}
+    size: {x: 26, y: 16}
+    label: 3
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 17, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+  - id: zip_264D62B3A723A81D_00
+    kind: 0
+    shape: 0
+    position: {x: 13, y: 13}
+    size: {x: 26, y: 16}
+    label: 4
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 5, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+  - id: zip_0148EE516A971C05_00
+    kind: 0
+    shape: 0
+    position: {x: 13, y: 13}
+    size: {x: 26, y: 16}
+    label: 5
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 8, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+  - id: zip_00D9C1D368148266_00
+    kind: 0
+    shape: 0
+    position: {x: 13, y: 13}
+    size: {x: 26, y: 16}
+    label: 6
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 14, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+  - id: zip_D65286195F62D2FE_00
+    kind: 0
+    shape: 0
+    position: {x: 13, y: 13}
+    size: {x: 26, y: 16}
+    label: 7
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 23, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+  - id: zip_D61A622CF7F27B17_00
+    kind: 0
+    shape: 0
+    position: {x: 13, y: 13}
+    size: {x: 26, y: 16}
+    label: 8
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 13}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 12}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 11}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 10}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 23, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 22, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 21, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 20, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 19, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 18, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 17, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 16, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 15, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 14, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 13, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 12, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 11, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 10, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 9, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 8, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 7, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 6, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 5, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 4, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 3, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 2, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 1, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 0}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 1}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 2}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 3}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 4}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 5}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 6}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 7}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 8}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+    - offset: {x: 0, y: 9}
+      width: 3
+      height: 3
+      packedPixels: /wE=
+  - id: zip_51716A1D3BE104A2_00
+    kind: 0
+    shape: 0
+    position: {x: 1, y: 10}
+    size: {x: 2, y: 22}
+    label: 9
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 1}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 2}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 3}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 4}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 5}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 6}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 7}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 8}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 9}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 10}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 11}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 12}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 13}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 14}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 15}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 16}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 17}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 18}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 19}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 20}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 20}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 19}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 18}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 17}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 16}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 15}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 14}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 13}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 12}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 11}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 10}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 9}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 8}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 7}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 6}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 5}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 4}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 3}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 2}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 1}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+  - id: zip_0A67791E0BA87B0A_00
+    kind: 0
+    shape: 0
+    position: {x: 49, y: 10}
+    size: {x: 2, y: 22}
+    label: 10
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 1}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 2}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 3}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 4}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 5}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 6}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 7}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 8}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 9}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 10}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 11}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 12}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 13}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 14}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 15}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 16}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 17}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 18}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 19}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 20}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 20}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 19}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 18}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 17}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 16}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 15}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 14}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 13}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 12}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 11}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 10}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 9}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 8}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 7}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 6}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 5}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 4}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 3}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 2}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 1}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+  - id: zip_C83E23AED54CD4F8_00
+    kind: 1
+    shape: 0
+    position: {x: 10, y: 35}
+    size: {x: 16, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+  - id: zip_C1AC4C31C5245E1E_00
+    kind: 1
+    shape: 0
+    position: {x: 10, y: 38}
+    size: {x: 16, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+  - id: zip_507ABB63405F1463_00
+    kind: 1
+    shape: 0
+    position: {x: 26, y: 35}
+    size: {x: 16, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+  - id: zip_66349746B8B28B6A_00
+    kind: 1
+    shape: 0
+    position: {x: 26, y: 38}
+    size: {x: 16, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+  - id: zip_C16797844DE8A2EA_00
+    kind: 1
+    shape: 0
+    position: {x: 5, y: 10}
+    size: {x: 2, y: 22}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 20}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 19}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 18}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 17}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 16}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 15}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 14}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 13}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 12}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 11}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 10}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 9}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 8}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 7}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 6}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 5}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 4}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 3}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 2}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 1}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 1}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 2}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 3}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 4}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 5}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 6}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 7}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 8}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 9}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 10}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 11}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 12}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 13}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 14}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 15}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 16}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 17}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 18}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 19}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 20}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+  - id: zip_96C71044AB843DC5_00
+    kind: 1
+    shape: 0
+    position: {x: 45, y: 10}
+    size: {x: 2, y: 22}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 20}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 19}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 18}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 17}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 16}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 15}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 14}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 13}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 12}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 11}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 10}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 9}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 8}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 7}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 6}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 5}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 4}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 3}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 2}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 1}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 1}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 2}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 3}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 4}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 5}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 6}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 7}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 8}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 9}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 10}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 11}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 12}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 13}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 14}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 15}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 16}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 17}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 18}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 19}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 20}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+  - id: zip_A94F261C6935D97D_00
+    kind: 1
+    shape: 0
+    position: {x: 10, y: 2}
+    size: {x: 20, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 15, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 16, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 17, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 18, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 18, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 17, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 16, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 15, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+  - id: zip_D0B3380B134BC9B6_00
+    kind: 1
+    shape: 0
+    position: {x: 10, y: 6}
+    size: {x: 20, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 18, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 17, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 16, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 15, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 1, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 2, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 3, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 4, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 5, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 6, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 7, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 8, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 9, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 10, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 11, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 12, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 13, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 14, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 15, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 16, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 17, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    - offset: {x: 18, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==

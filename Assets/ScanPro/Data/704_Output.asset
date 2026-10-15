@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03a58248bffea34d9d1a3926c48b5ba, type: 3}
+  m_Name: 704_Output
+  m_EditorClassIdentifier: 
+  editorLayout: {fileID: 11400000, guid: c39084d628949294a96f488dba191f9f, type: 2}
+  presentationShader: {fileID: 4800000, guid: 67f7378b0a2e4c84094ecf67e8d032c1, type: 3}
+  outputWidth: 2688
+  outputHeight: 3840
+  fullscreenDisplay: 0
+  fullscreenHorizontalOffset: -0.13
+  surfaces:
+  - faceIndex: 0
+    name: Wall Left
+    sourcePixels:
+      x: 100
+      y: 320
+      width: 320
+      height: 100
+    outputPixels:
+      x: 0
+      y: 640
+      width: 640
+      height: 2048
+    rotation: 1
+  - faceIndex: 1
+    name: Wall Button
+    sourcePixels:
+      x: 420
+      y: 100
+      width: 100
+      height: 220
+    outputPixels:
+      x: 640
+      y: 2688
+      width: 1408
+      height: 640
+    rotation: 1
+  - faceIndex: 2
+    name: Floor
+    sourcePixels:
+      x: 100
+      y: 100
+      width: 320
+      height: 220
+    outputPixels:
+      x: 640
+      y: 640
+      width: 1408
+      height: 2048
+    rotation: 1
+  - faceIndex: 3
+    name: Wall Top
+    sourcePixels:
+      x: 0
+      y: 100
+      width: 100
+      height: 220
+    outputPixels:
+      x: 640
+      y: 0
+      width: 1408
+      height: 640
+    rotation: 1
+  - faceIndex: 4
+    name: Wall Right Big
+    sourcePixels:
+      x: 100
+      y: 0
+      width: 200
+      height: 100
+    outputPixels:
+      x: 2048
+      y: 640
+      width: 640
+      height: 1280
+    rotation: 1
+  - faceIndex: 5
+    name: Entrance
+    sourcePixels:
+      x: 300
+      y: 0
+      width: 80
+      height: 100
+    outputPixels:
+      x: 2048
+      y: 1920
+      width: 640
+      height: 512
+    rotation: 1
+  - faceIndex: 6
+    name: Wall Right little
+    sourcePixels:
+      x: 380
+      y: 0
+      width: 40
+      height: 100
+    outputPixels:
+      x: 2048
+      y: 2432
+      width: 640
+      height: 256
+    rotation: 1
+  calibrationNotes: "\u4F9D TouchService/venues/704.json \u7684\u4E03\u9762\u77E9\u5F62\u8A2D\u5B9A\u3002CW
+    90\xB0 \xD76.4\uFF1By>=3328 \u4FDD\u7559\u9ED1\u8272\u3002\u5C3A\u5BF8\u8207\u6578\u5B78\u6620\u5C04\u5DF2\u6838\u5C0D\uFF0C\u73FE\u5834\u65B9\u5411\u8207\u516C\u5206\u6BD4\u4F8B\u4ECD\u9700\u9A57\u6536\u3002"

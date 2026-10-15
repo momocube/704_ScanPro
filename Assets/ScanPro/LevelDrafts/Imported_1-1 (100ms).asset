@@ -1,0 +1,748 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea21acef611a6e47b46238eccec79ed, type: 3}
+  m_Name: Imported_1-1 (100ms)
+  m_EditorClassIdentifier: 
+  levelNumber: 1
+  displayName: 1-1 (100ms)
+  venue: {fileID: 11400000, guid: c39084d628949294a96f488dba191f9f, type: 2}
+  timeLimitSeconds: 60
+  initialHearts: 15
+  movementSegmentMs: 1500
+  animationSpeedMilliseconds: 100
+  importedPackageName: 1-1 (100ms).zip
+  importedAtLocal: 2026-10-12 16:04:02 (Asia/Taipei)
+  importSummary: "\u8F49\u63DB\u5B8C\u6210\uFF1A\u89F8\u6478\u6578\u5B57\uFF0F\u7B97\u5F0F
+    12\u3001\u6383\u78BC QR 10\u3001\u5B89\u5168\u5340 4\u3001\u5371\u96AA\u5340
+    1\u3001\u7D2B\u8272\u6A5F\u95DC 0\u3001\u6DFA\u85CD\u6A5F\u95DC 0\uFF1B\u5168\u95DC\u5171\u7528\u5F71\u683C\u901F\u5EA6
+    100 ms\u3002"
+  importWarnings: 
+  timingFramesPerSecond: 60
+  proMechanic: 0
+  purpleHoldSeconds: 0.1
+  switchQuietIntervalMs: 500
+  mirrorPainting: 0
+  symmetryAxisX: 26
+  mirrorAcrossHorizontalAxis: 0
+  symmetryAxisY: 21
+  newTouchContentMode: 1
+  autoTouchStyle: 1
+  autoNumberOrder: 0
+  autoAnswerMinimum: 1
+  autoAnswerMaximum: 12
+  arithmeticOperandMinimum: 1
+  arithmeticOperandMaximum: 20
+  orderedTouchMode: 0
+  layerOrder: 0000000004000000030000000200000001000000
+  items:
+  - id: zip_FBB7B5BF4CA348EE_00
+    kind: 2
+    shape: 0
+    position: {x: 12, y: 12}
+    size: {x: 4, y: 4}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 4
+      height: 4
+      packedPixels: //8=
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_FBB7B5BF4CA348EE_01
+    kind: 2
+    shape: 0
+    position: {x: 36, y: 12}
+    size: {x: 4, y: 4}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 4
+      height: 4
+      packedPixels: //8=
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_FBB7B5BF4CA348EE_02
+    kind: 2
+    shape: 0
+    position: {x: 12, y: 26}
+    size: {x: 4, y: 4}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 4
+      height: 4
+      packedPixels: //8=
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_FBB7B5BF4CA348EE_03
+    kind: 2
+    shape: 0
+    position: {x: 36, y: 26}
+    size: {x: 4, y: 4}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 4
+      height: 4
+      packedPixels: //8=
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_594CFD2607D4F09E_00
+    kind: 3
+    shape: 0
+    position: {x: 0, y: 0}
+    size: {x: 52, y: 42}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: import:frames:region:00
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 52
+      height: 42
+      packedPixels: APz/PwAAAMD//wMAAACcfyYAAADA+WcCAAAA/P8/AAAAwD//AwAAAPzzPwAAAMD//wMAAAD8/z8AAADA//8DAAD/////////////////////////f/7/////5+f/P8//f/7///P8///////////////////////z//z/P/w//8//w8P/////Pzz8/////8PD//P//D/8/z//z///////////////////////P8///3/+//P8/+fn/////3/+/////////////////////////wD8////AwDA////PwAA/P///wMAwP///z8AAPyfn/8DAMD/+fk/AADM//8/AwDA/P//MwAA/P///wMAwP///z8A
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_00
+    kind: 0
+    shape: 0
+    position: {x: 22, y: 14}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 1
+    generatedText: 5-4
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_01
+    kind: 0
+    shape: 0
+    position: {x: 28, y: 14}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 2
+    generatedText: 9-7
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_02
+    kind: 0
+    shape: 0
+    position: {x: 18, y: 18}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 3
+    generatedText: 2+1
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_03
+    kind: 0
+    shape: 0
+    position: {x: 32, y: 18}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 4
+    generatedText: 7-3
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_04
+    kind: 0
+    shape: 0
+    position: {x: 2, y: 19}
+    size: {x: 4, y: 4}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 5
+    generatedText: 4+1
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 4
+      height: 4
+      packedPixels: //8=
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_05
+    kind: 0
+    shape: 0
+    position: {x: 46, y: 19}
+    size: {x: 4, y: 4}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 6
+    generatedText: 14-8
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 4
+      height: 4
+      packedPixels: //8=
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_06
+    kind: 0
+    shape: 0
+    position: {x: 18, y: 22}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 7
+    generatedText: 3+4
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_07
+    kind: 0
+    shape: 0
+    position: {x: 32, y: 22}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 8
+    generatedText: 4+4
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_08
+    kind: 0
+    shape: 0
+    position: {x: 22, y: 26}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 9
+    generatedText: 4+5
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_09
+    kind: 0
+    shape: 0
+    position: {x: 28, y: 26}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 10
+    generatedText: 9+1
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_10
+    kind: 0
+    shape: 0
+    position: {x: 12, y: 38}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 11
+    generatedText: 10+1
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_A5C5EE7BCE0641C8_11
+    kind: 0
+    shape: 0
+    position: {x: 38, y: 38}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 1
+    generatedAnswer: 12
+    generatedText: 4+8
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_C83E23AED54CD4F8_00
+    kind: 1
+    shape: 0
+    position: {x: 13, y: 2}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_C83E23AED54CD4F8_01
+    kind: 1
+    shape: 0
+    position: {x: 23, y: 2}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_C83E23AED54CD4F8_02
+    kind: 1
+    shape: 0
+    position: {x: 27, y: 2}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_C83E23AED54CD4F8_03
+    kind: 1
+    shape: 0
+    position: {x: 18, y: 5}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_C83E23AED54CD4F8_04
+    kind: 1
+    shape: 0
+    position: {x: 3, y: 13}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_C83E23AED54CD4F8_05
+    kind: 1
+    shape: 0
+    position: {x: 47, y: 13}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_C83E23AED54CD4F8_06
+    kind: 1
+    shape: 0
+    position: {x: 3, y: 27}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_C83E23AED54CD4F8_07
+    kind: 1
+    shape: 0
+    position: {x: 47, y: 27}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_C83E23AED54CD4F8_08
+    kind: 1
+    shape: 0
+    position: {x: 21, y: 36}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 
+  - id: zip_C83E23AED54CD4F8_09
+    kind: 1
+    shape: 0
+    position: {x: 29, y: 36}
+    size: {x: 2, y: 2}
+    label: 
+    useGeneratedContent: 0
+    generatedAnswer: 0
+    generatedText: 
+    group: 
+    proTarget: 0
+    targetGroups: []
+    allowSafeGreenOutsideFloor: 0
+    waypoints: []
+    startHoldSeconds: 0
+    waypointHoldSeconds: []
+    animationFrames:
+    - offset: {x: 0, y: 0}
+      width: 2
+      height: 2
+      packedPixels: Dw==
+    purpleClearMask:
+      offset: {x: 0, y: 0}
+      width: 0
+      height: 0
+      packedPixels: 

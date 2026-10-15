@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03a58248bffea34d9d1a3926c48b5ba, type: 3}
+  m_Name: 704_Output_UNCALIBRATED
+  m_EditorClassIdentifier: 
+  editorLayout: {fileID: 11400000, guid: c39084d628949294a96f488dba191f9f, type: 2}
+  outputWidth: 0
+  outputHeight: 0
+  surfaces:
+  - name: Floor
+    sourcePixels:
+      x: 100
+      y: 100
+      width: 320
+      height: 220
+    outputPixels:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rotation: 0
+  - name: Wall Top
+    sourcePixels:
+      x: 100
+      y: 0
+      width: 320
+      height: 100
+    outputPixels:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rotation: 0
+  - name: Wall Left
+    sourcePixels:
+      x: 0
+      y: 100
+      width: 100
+      height: 220
+    outputPixels:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rotation: 0
+  - name: Wall Right
+    sourcePixels:
+      x: 420
+      y: 100
+      width: 100
+      height: 220
+    outputPixels:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rotation: 0
+  - name: Wall Bottom
+    sourcePixels:
+      x: 100
+      y: 320
+      width: 320
+      height: 100
+    outputPixels:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rotation: 0
+  calibrationNotes: "\u7B49\u5F85\u78BA\u8A8D\u5BE6\u969B\u8F38\u51FA\u5C3A\u5BF8\u8207\u5404\u9762\u4F4D\u7F6E\u3002Wall
+    Bottom \u4E0B\u65B9\u4E0D\u5B58\u5728\u5340\u57DF\u9808\u4FDD\u7559\u9ED1\u8272\uFF0C\u4E0D\u5728\u7DE8\u8F2F\u5E95\u5716\u4E2D\u88DC\u756B\u3002"

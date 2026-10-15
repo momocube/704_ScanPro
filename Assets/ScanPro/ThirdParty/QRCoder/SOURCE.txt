@@ -1,0 +1,6 @@
+QRCoder 1.6.0
+Official project: https://github.com/codebude/QRCoder
+NuGet: https://api.nuget.org/v3-flatcontainer/qrcoder/1.6.0/qrcoder.1.6.0.nupkg
+Assembly: lib/netstandard1.3/QRCoder.dll
+Fetched: 2026-10-06
+License: MIT (see package metadata).
